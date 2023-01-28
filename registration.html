@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <title>gulp project</title>
+</head>
+
+<body>
+  <section class="authorization">
+    <div class="container">
+      <div class="authorization_top">
+        <ul class="authorization_list">
+          <li class="authorization_item">Главная</li>
+          <li class="authorization_item">Авторизация</li>
+          <li class="authorization_item">Регистрация</li>
+        </ul>
+        <hr class="authorization_line">
+        <h1 class="authorization_title">Регистрация</h1>
+      </div>
+      <div class="registration_sms">
+        <p class="registration_text-green">На Ваш номер было выслано СМС с кодом подтверждения</p>
+        <div class="registration_wrapper">
+          <div class="authorization_wrapp">
+            <p class="authorization_text-inputSMS">Код подтверждения из СМС </p>
+            <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+          </div>
+          <input class="authorization_input" type="text">
+        </div>
+        <div class="registration_sms_wrap">
+          <button class="authorization_button registration_sms_btn">Отправить</button>
+          <p class="registration_sms-text">Отправить код повторно</p>
+        </div>
+      </div>
+
+      <div class="registration_first">
+        <p class="authorization_text">Зарегистрируйтесь, чтобы использовать все возможности личного кабинета:
+          отслеживание
+          заказов, настройку подписки, связи с социальными сетями и другие. Мы никогда и ни при каких условиях не
+          разглашаем личные данные клиентов. Контактная информация будет использована только для оформления заказов и
+          более удобной работы с сайтом.</p>
+        <p class="authorization_text-green">На Ваш номер было выслано СМС с кодом подтверждения</p>
+        <div class="registration_block">
+          <div class="registration_wrapper">
+            <div class="authorization_wrapp">
+              <p class="authorization_text-inputName">Фамилия Имя Отчество</p>
+              <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+            </div>
+            <input class="authorization_input" type="text">
+          </div>
+          <div class="registration_wrapper">
+            <div class="authorization_wrapp">
+              <p class="authorization_textEmail">E-mail</p>
+              <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+            </div>
+            <input class="authorization_input" type="email">
+          </div>
+          <div class="registration_wrapper">
+            <div class="authorization_wrapp">
+              <p class="authorization_text-inputTel">Номер телефона</p>
+              <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+            </div>
+            <input class="authorization_input" type="tel" placeholder="+7 000 000 000 000 ">
+          </div>
+
+        </div>
+
+
+        <div class="registration_wrapper">
+          <div class="authorization_wrapp">
+            <p class="registration_textPassword">Пароль</p>
+            <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+          </div>
+          <div class="authorization_inputWrap-img">
+            <input class="authorization_input authorization_inputPassword" type="text">
+            <button class="authorization_input-img"><img src="./assets/images/eye-open.svg" alt=""></button></div>
+          <p class="registration_text-input">Длинна пароля не менее 6 символов</p>
+        </div>
+        <div class="registration_wrapper">
+          <div class="authorization_wrapp">
+            <p class="authorization_textPassword2">Подтверждение пароля</p>
+            <p class="authorization_text-input authorization_text-input-right">Заполните это поле</p>
+          </div>
+          <div class="authorization_inputWrap-img">
+            <input class="authorization_input authorization_inputPassword" type="password">
+            <button class="authorization_input-img"><img src="./assets/images/eye-closed.svg" alt=""></button></div>
+        </div>
+
+        <div class="checkbox registration_wrap-label">
+          <input class="custom-checkbox" type="checkbox" id="color-4" name="color-4" value="yellow">
+          <label for="color-4" class="registration_text-bottom">Я даю свое согласие на обработку моих персональных
+            данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях
+            и для целей, определенных в Согласии на обработку персональных данных </label>
+        </div>
+
+        <div class="registration_button_block">
+          <button class="authorization_button">Зарегистрироваться</button>
+          <p class="authorization_text-bottom registration_button-text">- обязательные поля</p>
+        </div>
+        <div class="authorization_text-additional text-bottom">Вы сможете отправить код повторно через <p
+            class="authorization_text-numbers">41</p> сек.</div>
+        <p class="authorization_textbottom-second">Отправить СМС повторно</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src=""></script>
+</body>
+
+</html>
